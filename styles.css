@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Arimo:ital,wght@0,400..700;1,400..700&family=Noto+Sans+JP:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Arimo:ital,wght@0,400..700;1,400..700&family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --color-primary: #854632;
+    --color-secondary: #7b284f;
+    --color-third: #ffffff;
+    --color-fourth: #fcedf5;
+    --color-fifth: #f3e6d8;
+    --color-sixth: #6b6b6b;
+    --color-seventh: #5f574e;
+    --color-eight: #302d2c;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--color-fifth);
+    color: var(--color-sixth);
+}
+
+h1 {
+    color: black;
+}
+
+b {
+    color: rgb(80, 80, 80);
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+}
+
+.recipe {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+
+img {
+    margin: 20px;
+    width: 94%;
+    border-radius: 10px;
+}
+
+.header {
+    margin: 20px
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.preparation-time {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--color-fourth);
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+.preparation-time h2 {
+    margin: 0;
+    color: var(--color-secondary);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
+
+.ingredients {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.ingredients h2 {
+    color: var(--color-primary);
+}
+
+.ingredients li {
+    margin-bottom: 10px;
+}
+
+.instructions {
+    border-top: 1px solid #ddd;
+    margin: 20px;
+}
+
+.instructions h2 {
+    color: var(--color-primary);
+}
+
+.instructions ol {
+    list-style: decimal;
+    padding: 0 38px;
+    margin: 0;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+}
+
+.nutrition {
+    margin: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.nutrition h2 {
+    color: var(--color-primary);
+}
+
+.nutrition table {
+    width: 95%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.nutrition td {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.nutrition th {
+    font-weight: 400;
+}
+
+.line {
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition th,
+.nutrition td {
+    border: none;
+    padding: 10px;
+    padding-left: 25px;
+    text-align: left;
+}
